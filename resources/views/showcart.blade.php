@@ -157,9 +157,9 @@ https://templatemo.com/tm-558-klassy-cafe
                                 
                                     
                                      @endforeach
-                                     @foreach($data2 as $data2)
+                                     @foreach($data2 as $data)
                                      <tr style="position: relative; top: -100px; right: -800px">
-                                     <td style="padding: 30px"><a href="{{url('/remove',$data2->id)}}" ><button class="btn btn-warning"> Remove<button></a></td>
+                                     <td style="padding: 30px"><a href="{{url('/remove',$data->id)}}" > class="btn btn-warning" Remove</a></td>
                                  </tr>
                                   @endforeach
                                 </tbody>
